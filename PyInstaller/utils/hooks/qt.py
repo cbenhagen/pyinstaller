@@ -199,7 +199,7 @@ def qt5_qml_data(directory):
     Return Qml library directory formatted for data.
     """
     qmldir = qt5_qml_dir()
-    return os.path.join(qmldir, directory), 'qml{0}{1}'.format(os.pathsep, directory)
+    return os.path.join(qmldir, directory), 'qml{0}{1}'.format(os.sep, directory)
 
 
 def qt5_qml_plugins_binaries(directory):
